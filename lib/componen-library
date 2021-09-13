@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>component schema</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<!-- <style>
+    h2{
+        color: red;
+    }
+</style> -->
+
+<body>
+    <h1>component library</h1>
+    <p>Hi im vishnu, this is my portfolio website done using html</p>
+    <hr>
+    <h2>@typography</h2>
+    <h1>the biggest heading h1</h1>
+    <h2>the second biggest heading</h2>
+    <P>this is normal text</P>
+    <small>this is relatively smaller text</small>
+<hr>
+<h2>@containers</h2>
+<h3>fluid container</h3>
+<div class="container center-container">this is a fluid container</div>
+<h3> center container</h3>
+<div class="container center-container">this is a center container</div>  
+<hr>
+<h2>@links</h2>
+<a class="link-primary link" href="/">primary link</a>
+<a class="link-secondary link" href="/">secondary link</a>
+<hr>
+<h2>@lists</h2>
+<h3>unordered lists</h3>
+<ul class="list-nonbullet">
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+</ul>
+<h3>ordered lists</h3>
+<ol class="list-nonbullet" >
+    <li class="list-inline">item one</li>
+    <li class="list-inline">item two</li>
+    <li class="list-inline">item three</li>
+</ol>
+<hr>
+<h2>nav</h2>
+<nav class="navigation">
+<div class="navbrand">im vishnu</div>
+    <ul class="navpills list-nonbullet ">
+       <li class="list-inline"><a class="link link-active" href="/">home</a></li>
+        <li class="list-inline"><a class="link"href="/">product</a></li>
+        <li class="list-inline"><a class="link"href="/">about</a></li>
+    </ul>
+</nav>
+    <hr>
+<h2>@header</h2>
+<header class="main-head">
+<img class="head-image" src="images/header.png"/>
+<h1 class="head-text"><span class="head-text-highlight">Vishnu's</span> portfolio site</h1>
+</header>
+<hr>
+<h2>@section</h2>
+<section class="section">
+    <div class="container center-container">
+        <h1>white section</h1>
+    <p>this will have white bg</p>
+    </div>
+    
+</section>
+<section class="section ow">
+    <div class="container center-container">
+        <h1>off-white section</h1>
+        <p>this will have off-white bg</p>
+    </div>
+ 
+</section>
+<hr>
+<h2>@footer</h2>
+<footer class="footer">
+    <div class="footer-header">some text</div>
+<ul class="list-nonbullet">
+    <li class="list-inline"> <a class="link" href="/">social one</a></li>
+    <li class="list-inline"><a class="link" href="/">social two</a></li>
+    <li class="list-inline"><a class="link" href="/">social three</a></li>
+</ul>
+</footer>
+</body>
+</html>
