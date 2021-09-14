@@ -6,9 +6,9 @@
 }
 body{
     font-family: 'Montserrat','sans-serif';
-    margin: 0px auto;
-    max-width: 95%;
-    width: 100%;
+    margin: 0px 
+/*     max-width: 95%;
+    width: 100%; */
 }
 .margin-md {
     margin: 2rem;
