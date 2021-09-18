@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 :root {
-    --primary-color:#2563EB;
+    --primary-color:#121212;
     --secondary-color:#6B7280;
-    --off-white-color:#F3F4F6;
+    --off-white-color:#F3F4F6
 }
 body{
     font-family: 'Montserrat','sans-serif';
@@ -17,8 +17,9 @@ body{
     padding-left: 0rem 1rem;
 }
 .center-container{
-    max-width: 600px;
-    margin:auto;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
 
 }
 .link{
@@ -116,3 +117,7 @@ color: white;
 .footer .footer-header{
 font-weight: bold;
     font-size: large;}
+.showcase-blog {
+        padding-bottom: 6rem;
+      }
+      
