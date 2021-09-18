@@ -72,6 +72,7 @@ hr{
 }
 .navigation .link-active{
     font-weight: bold;
+    color: black;
 }
 .main-head{
     padding:2rem;
